@@ -1,0 +1,217 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: White;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+
+}
+
+.header-left{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+}
+
+.header-right{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.middle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    color: white;
+    font-weight: 700;
+}
+
+.middle div {
+
+    /* margin: 10px; */
+    padding: 10px;
+    /* border: 1px solid black; */
+    /* border-radius: 10px; */
+    min-width: 260px;
+    width: 20%;
+    height: 25vh;
+    /* #1abc9c */
+    cursor: pointer;
+}
+
+.TURQOISE{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    background-color: #1abc9c;
+}
+
+.EMERALD{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    background-color: #2ecc71;
+}
+
+.PETER-RIVER{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    background-color: #3498db;
+}
+
+.AMETHYST{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    background-color: #9b59b6;
+}
+
+.WET-ASPHALT{
+    display: flex;
+    justify-content: right;
+    align-items: end;   
+    background-color: #34495e;
+}
+
+.GREEN-SEA{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    background-color: #16a085;
+}
+
+.NEPHRITIS{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    background-color: #27ae60;
+}
+
+.BELIZE-HOLE{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    background-color: #2980b9;
+}
+
+.WISTERIA{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    background-color: #8e44ad;
+}
+
+.MIDNIGHT-BLUE{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    background-color: #2c3e50;
+}
+
+.SUN-FLOWER{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    background-color: #f1c40f;
+}
+
+.CARROT{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    background-color: #e67e22;
+}
+
+.ALIZARIN{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    background-color: #e74c3c;
+}
+
+.CLOUDS{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    background-color: #ecf0f1;
+}
+
+.CONCRETE{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    background-color: #95a5a6;
+}
+
+.ORANGE{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    background-color: #f39c12;
+}
+
+.PUMPKIN{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    background-color: #d35400;
+}
+
+.POMEGRANATE{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    background-color: #c0392b;
+}
+
+.SILVER{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    background-color: #bdc3c7;
+}
+
+.ASBESTOS{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    background-color: #7f8c8d;
+}
+
+
+.header-center{
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 5px;
+    min-width: 250px;
+
+}
+
+@media screen and (max-width: 768px){
+    .middle div{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* color: white; */
+    font-weight: 700;
+    box-sizing: border-box;
+    }
+}

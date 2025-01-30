@@ -1,0 +1,139 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #3C40C6;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    font-weight: 700;
+    flex-wrap: wrap;
+    height: 80px;
+}
+
+.header-left {
+    font-size: 26px;
+}
+
+.header-right {
+    display: flex;
+    gap: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 30px;
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 250px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.card img {
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+}
+
+.card-content {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    /* text-align: center; */
+    margin-top: 12px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(16,36,97);
+    padding: 20px 60px;
+    height: 30vh;
+    /* border: 3px solid blue; */
+    /* width: 100%; */
+    /* margin: 0 20px; */
+    /* gap: 10px; */
+}
+
+.footer-content{
+    /* border: 3px solid red; */
+    width: 100%;
+    /* margin-top: 30px;     */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    height: 25vh;
+    margin: auto;
+    /* align-items: center; */
+    /* margin-left: 220px; */
+
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about{
+    width: 80%;
+}
+
+@media (max-width: 768px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        /* flex-direction: column; */
+        text-align: center;
+        gap: 10px;
+    }
+
+    .header-right {
+        display: flex;
+        justify-content: space-between;
+        /* flex-direction: column; */
+        gap: 10px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+}
